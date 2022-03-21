@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <div>
+            <label>First Name: * </label>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <label>Last Name: * </label>
+            <input type="text" name="last_name">
+        </div>
+        <div>
+            <label> Email Address: * </label>
+            <input type="text" name="email_address">
+        </div>
+        <div>
+            <label>Password: * </label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label>Confirm Password: * </label>
+            <input type="password" name="confirm_password">
+        </div>
+        <div>
+            <label>Birthday: </label>
+            <input type="date" name="birthday">
+        </div>
+        <div>
+            <p>Gender Identity: </p>
+        </div>
+        <div>
+            <input type="radio" name="gender_identity" value="Male" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender_identity" value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender_identity" value="Non-Binary" id="Non-Binary">
+            <label for="Non-Binary">Non-Binary</label>
+            <input type="radio" name="gender_identity" value="Prefer-not-to-say" id="Prefer-not-to-say">
+            <label for="Prefer-not-to-say">I prefer-not-to-say</label>
+        </div>
+        <div>
+            <p>A short description about myself: </p>
+            <textarea name="description" id="description" cols="40" rows="7"></textarea>
+        </div>
+        <div>
+            <label for="fav_language">Favorite Language: </label>
+            <select name="fav_language" id="fav_language">
+                <option selected disabled hidden>Choose a Language</option>
+                <option>JavaScript</option>
+                <option>Python</option>
+                <option>C#</option>
+            </select>
+        </div>
+            <input type="checkbox" name="email_updates" id="email_updates">
+            <label for="email_updates">Yes, I would like to receive periodic email updates</label>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <div>
+            <p> * Indicates a required field</p>
+        </div>
+    </form>
+</body>
+</html>
