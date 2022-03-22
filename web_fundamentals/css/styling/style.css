@@ -1,0 +1,21 @@
+.title
+{
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+
+.projects
+{
+    color: white;
+    background-color: purple;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact
+{
+    color: blue;
+    text-decoration: underline;
+    text-align: right;
+}
