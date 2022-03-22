@@ -1,0 +1,36 @@
+.search
+{
+    color: turquoise;
+    border: 2px solid turquoise;
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+
+.plus
+{
+    color: white;
+    background-color: turquoise;
+    font-size: larger;
+    border: 2px solid turquoise;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-left: 40px;
+    margin-bottom: 12px;
+}
+
+.createaccount
+{
+    color: white;
+    background-color: rgb(54, 90, 167);
+    box-shadow: 5px 5px 5px black;
+    margin-left: 40px;
+    margin-bottom: 12px;
+    height: 35px;
+    width: 130px;
+}
