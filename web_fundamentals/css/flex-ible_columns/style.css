@@ -1,0 +1,38 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.col
+{
+    flex: 1;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2
+{
+    flex: 2;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.col-3
+{
+    flex: 3;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+}
