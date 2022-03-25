@@ -300,4 +300,11 @@ header ul a
     margin-right: 10px;
 }
 
+#view-more-box
+{
+    border: 2px solid grey;
+    padding-left: 130px;
+}
+
+
 
