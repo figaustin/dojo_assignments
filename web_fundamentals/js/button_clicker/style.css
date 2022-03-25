@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+
+body
+{
+    padding: 0px 300px;
+}
+
+
+header
+{
+    background-color: grey;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.nav-bar
+{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    column-gap: 20px;
+}
+
+.dojonary
+{
+    order: 0;
+}
+
+.search-bar
+{
+    order: 1;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.671);
+    height: 23px;
+    margin-top: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.808);
+}
+
+.login
+{
+    order: 2;
+    height: 30px;
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 2px;
+    background-color: darkcyan;
+    
+}
+
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    column-gap: 100px;
+}
+
+.col-1
+{
+    order: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2
+{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.likes
+{
+    background-color: yellow;
+    box-shadow: 50px black;
+    font-weight: bold;
+    height: 30px;
+    width: 60px;
+}
+/* LEFT SIDE */
+
+.boxes
+{
+    border: 2px solid black;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.right-column
+{
+    padding-top: 20px;
+}
+
+
+/* RIGHT SIDE */
+
+.define-box
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 30px;
+    width: 400px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.add-def
+{
+    
+    background-color: seagreen;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <h1 class="dojonary">Dojonary</h1>
+            <p class="search-bar">Search</p>
+            <button class="login" onclick="login(this)">Login</button>
+        </div>
+    </header>
+    <div class="grid-container">
+        <div class="col-1">
+            <div class="top-box boxes">
+                <div class="left-column">
+                    <h1 class="ninja">ninja</h1>
+                    <p class="noun">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="right-column">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="bottom-box boxes">
+                <div class="left-column">
+                    <h1 class="ninja">ninja</h1>
+                    <p class="noun">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button class="likes" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="right-column">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="define-box">
+                <p class="saying">Dojonary is defined by YOU</p>
+                <button class="add-def" onclick="addDef(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="button_clicker.js"></script>
+</body>
+</html>
