@@ -1,0 +1,44 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .btn
+  {
+    color: white;
+    background-color: rgb(54, 90, 167);
+    box-shadow: 5px 5px 5px black;
+    margin-left: 40px;
+    margin-bottom: 12px;
+    height: 35px;
+    width: 130px;
+  }
+
+  .row
+  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .col
+  {
+    flex: 1;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+  }
+
+.navbar
+{
+    background-color: rgb(80, 79, 79);
+    padding: 5px;
+    display: flex;
+}
