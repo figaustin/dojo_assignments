@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0b;
+}
+
+/* colors start */
+.yellow {
+  background-color: #fbe850;
+}
+
+.grey {
+  background-color: #2e3038;
+}
+
+.text-grey {
+  color: #adadad;
+}
+/* colors end */
+
+/* utility styles start */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap-sm {
+  gap: 1.5rem;
+}
+
+.gap-lg {
+  gap: 4rem;
+}
+
+.w-50 {
+  width: 50%;
+  border: 1px dashed green;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.serif {
+  font-family: 'Merriweather', serif;
+}
+
+.sans-serif {
+  font-family: 'Lato', sans-serif;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+/* utility styles end */
+
+/* header styles start */
+header {
+  /* background-color: red; */
+  padding: 20px 0;
+}
+
+header ul {
+  list-style: none;
+}
+
+h1, h2 {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header a, .btn {
+  font-size: large;
+}
+
+.btn {
+  padding: .75em 1.5em;
+  border: 0;
+}
+/* header styles end */
+
+#headline {
+  padding: 20px 0;
+}
+
+#headline h1 {
+  font-size: 48pt;
+  font-weight: 400;
+  width: 80%;
+  margin-bottom: .5em;
+}
+
+#headline p {
+  width: 80%;
+  line-height: 2em;
+  font-size: larger;
+}
+
+#logos {
+  /* background-color: yellow; */
+  padding: 20px 0;
+}
+
+/* features start */
+#features {
+  /* background-color: lightgreen; */
+  padding: 20px 0;
+}
+
+.feature {
+  flex: 1;
+}
+
+.feature img {
+  width: 100%;
+}
+
+.feature>* {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+/* features end */
+
+/* about start */
+#about {
+  /* background-color: lavender; */
+  padding: 20px 0;
+}
+
+.column {
+  flex: 1;
+}
+
+.column>* {
+  margin-bottom: 1rem;
+}
+/* about end */
+
+#contact {
+  /* background-color: aqua; */
+  padding: 20px 0;
+  border: 1px dashed red;
+}
+
+footer {
+  /* background-color: hotpink; */
+  padding: 20px 0;
+}
+
+.blue-border {
+  border: 1px dashed blue;
+}

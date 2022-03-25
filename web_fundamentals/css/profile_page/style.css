@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.grey
+{
+    background-color: rgb(87, 85, 85);
+}
+
+.teal
+{
+    background-color: teal;
+}
+
+.white
+{
+    color: white;
+}
+
+.container 
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap-m
+{
+    gap: 2rem;
+}
+
+.button
+{
+    padding: 7px 30px;
+    border: 0;
+    color: white;
+    margin-left: 420px;
+}
+
+/* HEADER  */
+header
+{
+    background-color: black;
+    padding: 15px 0;
+}
+
+header ul
+{
+    list-style-type: none;
+}
+
+header ul a
+{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+.grid-container
+{
+    display: flex;
+    padding: 10px;
+}
+/* COLUMN 1 */
+#col-1
+{
+    display: flex;
+    padding: 30px 0px 30px 285px;
+    flex: 2;
+    flex-direction: column;
+}
+
+#col-2
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 30px 200px 30px 70px;
+}
+
+/* PROFILE BOX */
+.user-name
+{
+    font-size: 40px;
+}
+
+.teal-stripe
+{
+    height: 90px;
+}
+
+.profile-container
+{
+    border: 2px solid grey;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.user-desc > ul
+{
+    list-style-type: none;
+}
+
+.location
+{
+    margin: 5px auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user-desc
+{
+    margin: 10px auto;
+}
+
+.edit-profile
+{
+    margin: 10px auto;
+
+}
+
+#profile-box
+{
+    border: 2px solid grey;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#profile-box>.container
+{
+    border: 2px solid grey;
+}
+
+#profile-text
+{
+    color: white;
+    font-size: 35px;
+}
+
+#user-icon
+{
+    height: 100px;
+    position: relative;
+    left: 45px;
+    top: 40px;
+}
+
+#map-marker
+{
+    height: 20px;
+}
+
+#gear-icon
+{
+    height: 12px;
+}
+
+
+
+/* CONNECTION REQUESTS */
+
+#connect-reqs-box
+{
+    border: 2px solid gray;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.grey-stripe
+{
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#reqs-box  img
+{
+    height: 30px;
+}
+.connect-reqs
+{
+    padding: 5px 5px 0px 5px;
+}
+
+.todd
+{
+    font-size: large;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.phil
+{
+    font-size: large;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle
+{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(153, 152, 152);
+    border-radius: 50%;
+    display: flex;
+    padding: 5px 0px 7px 8px;
+    color: black;
+}
+
+
+
+/* EDUCATION BOX */
+
+#education-box
+{
+    border: 2px solid gray;
+    width: 500px; 
+}
+
+#education-box>.grey-stripe
+{
+    padding-left: 30px;
+    padding-top: 7px;
+}
+
+.dojo
+{
+   padding-left: 20px; 
+}
+
+.dojo-date
+{
+    padding-left: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.black-belts
+{
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+/* YOUR CONNECTIONS BOX */
+
+#your-connections-box
+{
+    border: 2px solid grey;
+}
+.connections > *
+{
+    font-size: large;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+#your-connections-box  img
+{
+    height: 30px;
+}
+
+.connections
+{
+    padding: 10px;
+}
+
+.oval
+{
+    height: 25px;
+    width: 45px;
+    background-color: rgb(153, 152, 152);
+    border-radius: 50%;
+    display: flex;
+    padding: 5px 0px 7px 8px;
+    color: black;
+    margin-right: 10px;
+}
+
+

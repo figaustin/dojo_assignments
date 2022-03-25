@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <header>
+        <div class="container flex">
+            <h1 id="profile-text">Profile</h1>
+            <ul class="flex gap-m">
+                <li><a href="#" class="white">Home</a></li>
+                <li><a href="#" class="white">My Profile</a></li>
+                <li><a href="#" class="white">Find Connections</a></li>
+            </ul>
+            <button class="button teal bold">Sign Out</button>
+        </div>
+    </header>
+    <div class="grid-container">
+        <div id="col-1">
+            <div id="profile-box">
+                <div class="teal-stripe teal">
+                    <img src="./imgs/user-circle.png" alt="User icon" id="user-icon">
+                </div>
+                <div class="profile-container">
+                    <div class="user-name">
+                        <p>Jane Doe</p>
+                    </div>
+                    <div class="location">
+                        <p><img src="./imgs/map-marker.png" alt="" id="map-marker"> Seattle</p>
+                    </div>
+                    <div class="user-desc">
+                        <ul>
+                            <li>Developer | Engineer | Problem Solver</li>
+                            <li>Master of shadows and the Internet!</li>
+                        </ul>
+                    </div>
+                    <div class="edit-profile">
+                        <p><img src="./imgs/gear.png" alt="" id="gear-icon"> <a href="#">edit profile</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="education-box">
+                <div class="grey-stripe grey">
+                    <h3 class="education white bold">Education</h3>
+                </div>
+                <h2 class="dojo">Coding Dojo - Full Stack Bootcamp</h2>
+                <h3 class="dojo-date">Dec 2019 - Mar 2020</h2>
+                <p class="black-belts">Triple black belt in Python, MERN, and C#...</p>
+            </div>
+        </div>
+        <div id="col-2">
+            <div id="connect-reqs-box">
+                <div class="grey-stripe grey">
+                    <span class="circle bold">
+                        <p>2</p>
+                    </span>
+                    <p class="connect-reqs white bold">Connection Requests</p>
+                </div>
+                <div id="reqs-box">
+                    <div class="todd bold"><p><img src="./imgs/user-circle.png" alt="User"> Todd E <img src="./imgs/accept-circle.png" alt="Accept" class="accept-icon"> <img src="./imgs/close-circle.png" alt="Close" class="close-icon"></p>
+                    </div>
+                    <div class="phil bold"><p><img src="./imgs/user-circle.png" alt="User">  Phil K <img src="./imgs/accept-circle.png" alt="Accept" class="accept-icon"> <img src="./imgs/close-circle.png" alt="Close" class="close-icon"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="your-connections-box">
+                <div class="grey-stripe grey">
+                    <span class="oval bold">
+                        <p>500+</p>
+                    </span>
+                    <p class="connect-reqs white bold">Your Connections</p>
+                </div>
+                <div class="connections">
+                    <div class="adrien bold"><p><img src="./imgs/user-circle.png" alt="User"> Adrien D</p>
+                    </div>
+                    <div class="anne bold"><p><img src="./imgs/user-circle.png" alt="User"> Anne J</p>
+                    </div>
+                    <div class="alayne bold"><p><img src="./imgs/user-circle.png" alt="User"> Alayne T</p>
+                    </div>
+                    <div class="arry bold"><p><img src="./imgs/user-circle.png" alt="User"> Arry Y</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
