@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <nav>
+        <div class="container flex">
+            <h1>DojoWeather</h1>
+            <div class="cities">
+                <a href="#" onclick="loadingWeather()">Burbank</a>
+                <a href="#" onclick="loadingWeather()">Chicago</a>
+                <a href="#" onclick="loadingWeather()">Dallas</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container flex">
+            <h2 id="current-city">San Jose</h2>
+            <div class="temp-convert">
+                <label for="temp">show temperature in </label>
+                <select name="temp" id="temp" onchange="convertTemp(['today-temp-high', 'today-temp-low', 'tom-high', 'tom-low', 'fri-high', 'fri-low', 'sat-high', 'sat-low'])">
+                    <option value="C">°C</option>
+                    <option value="F" >°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="weather-container">
+            <div class="weather-card">
+                <p class="day">Today</p>
+                <img src="./assets/some_rain.png" alt="Some rain">
+                <p class="weather-type">Some Rain</p>
+                <div class="temps">
+                    <p id="today-temp-high" class="temp-high">24°</p>
+                    <p id="today-temp-low" class="temp-low">18°</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <p class="day">Tomorrow</p>
+                <img src="./assets/some_sun.png" alt="Some sun">
+                <p class="weather-type">Some Sun</p>
+                <div class="temps">
+                    <p class="temp-high" id="tom-high">27°</p>
+                    <p class="temp-low" id="tom-low">19°</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <p class="day">Friday</p>
+                <img src="./assets/some_clouds.png" alt="Some clouds">
+                <p class="weather-type">Some Clouds</p>
+                <div class="temps">
+                    <p class="temp-high" id="fri-high">21°</p>
+                    <p class="temp-low" id="fri-low">16°</p>
+                </div>
+            </div>
+            <div class="weather-card">
+                <p class="day">Saturday</p>
+                <img src="./assets/some_sun.png" alt="Some sun">
+                <p class="weather-type">Some Sun</p>
+                <div class="temps">
+                    <p class="temp-high" id="sat-high">26°</p>
+                    <p class="temp-low" id="sat-low">21°</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="cookie-box flex" id="cookies">
+        <img src="./assets/cookie.png" alt="Cookie">
+        <div class="container">
+            <p class="stop-cookie">Stop! Cookie time</p>
+            <p class="cookie-desc">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button class="accept" onclick="acceptedCookies('cookies')">I accept</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

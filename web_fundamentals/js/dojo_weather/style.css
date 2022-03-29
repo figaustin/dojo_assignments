@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+/* Utility classes */
+
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.weather-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+
+/* Nav Bar */
+nav
+{
+    background-color: rgb(87, 176, 211);
+    color: white;
+}
+
+h1
+{
+    font-size: 4.2rem;
+}
+
+.cities
+{
+    display: flex;
+    font-size: 1.7rem;
+    gap: 2.5rem;
+}
+
+.cities > a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* MAIN */
+main
+{
+    padding-top: 2rem;
+}
+
+#current-city
+{
+    font-size: xx-large;
+}
+
+.line
+{
+    background-color: black;
+    height: 1px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/* Weather cards */
+.weather-card
+{
+    margin-top: 2rem;
+    background-color: rgb(231, 229, 229);
+}
+
+.day
+{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.weather-card > img
+{
+    height: 180px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.weather-type
+{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.temps
+{
+    display: flex;
+    margin-top: 1rem;
+    text-align: center;
+    gap: 5rem;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.temp-high
+{
+    color: red;
+}
+
+.temp-low
+{
+    color: cornflowerblue;
+}
+
+
+
+/* Cookies Notification */
+.cookie-box
+{
+    width: 1000px;
+    gap: 1rem;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 3%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.stop-cookie
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.accept
+{
+    width: 7rem;
+    height: 2rem;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px black;
+}
