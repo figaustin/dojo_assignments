@@ -1,12 +1,34 @@
+
+class User:
+    def __init__(self, name, account_type):
+        self.name = name
+        self.account_type = account_type
+        self.account = BankAccount(name, 2, account_type, 100)
+    
+    def make_deposit(self, amount):
+        self.account.deposit(amount)
+
+    def make_withdrawal(self, amount):
+        self.account.withdraw(amount)
+    
+    def display_user_balance(self):
+        print(f"Balance: {self.account.balance}")
+
+    def transfer_money(self, other_user, amount):
+        self.account -= amount
+        other_user.account += amount
+
+# 
+# 
+
 class BankAccount:
     all_accounts = []
     def __init__(self, int_rate, balance = 0):
         self.int_rate = int_rate
         self.balance = balance
-
         BankAccount.all_accounts.append(self)
 
-    def deposit(self, amount):
+    def deposit(self, amount, account_type):
         self.balance += amount
         return self
 
@@ -31,22 +53,6 @@ class BankAccount:
     def print_info(cls):
        for account in cls.all_accounts:
            print(f'{account.int_rate}%, ${account.balance}')
-        
-
-# Accounts
-account1 = BankAccount(5, 100)
-account2 = BankAccount(3, 200)
-
-# Using Accounts
-
-account1.deposit(30).deposit(30).deposit(30).withdraw(20).yield_interest().display_account_info()
-
-account2.deposit(40).deposit(40).withdraw(10).withdraw(10).withdraw(10).withdraw(10).yield_interest().display_account_info()
-
-print('=================')
-
-BankAccount.print_info()
-
 
 
 
