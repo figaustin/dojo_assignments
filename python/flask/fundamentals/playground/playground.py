@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/play')
 def play1():
-    return render_template('index.html')
+    return render_template('playground.html')
 
 @app.route('/play/<number>')
 def play2(number):
