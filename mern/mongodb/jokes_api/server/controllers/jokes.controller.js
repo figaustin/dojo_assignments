@@ -1,10 +1,13 @@
+const { query } = require("express");
 const Joke = require ("../models/joke.model");
+
 
 module.exports.findAllJokes = (req, res) => {
     Joke.find()
         .then(allJokes => res.json({ jokes: allJokes }))
         .catch(err => res.json({ message: "Something went wrong", error: err}));
 };
+
 
 module.exports.findOneJoke = (req, res) => {
     Joke.findOne({ _id: req.params.id })
@@ -20,8 +23,11 @@ module.exports.getRandomJoke = (req, res) => {
         Joke.findOne().skip(random).exec()
             .then(randomJoke => res.json({ joke: randomJoke }))
             .catch(err => res.json({ message: "Something went wrong", error: err}));
-    })
-};
+            
+
+        });
+}
+        
 
 module.exports.createNewJoke = (req, res) => {
     Joke.create(req.body)
